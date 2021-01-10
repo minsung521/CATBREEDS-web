@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	background-image: url(catswallpaper.jpg);
+	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+ol {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+h1 {
+	font-size: 72px;
+
+	background-image: -webkit-linear-gradient(blue, black);
+
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+
+	position: relative;
+}
+
+h1:after {
+	background: none;
+
+	content: attr(data-text);
+
+	left: 0;
+
+	position: absolute;
+
+	/*text-shadow: 1px 1px 2px #000;*/
+
+	/*text-shadow: 0 0 2px #f00; -moz-text-shadow: 0 0 2px #f00; -webkit-text-shadow: 0 0 2px #f00; */
+
+	text-shadow: -2px 0 2px #f00, 0 2px 2px #f00, 2px 0 2px #f00, 0 -2px 2px #f00;
+
+	-moz-text-shadow: -2px 0 2px #f00, 0 2px 2px #f00, 2px 0 2px #f00,
+		0 -2px 2px #f00;
+
+	-webkit-text-shadow: -2px 0 2px #f00, 0 2px 2px #f00, 2px 0 2px #f00,
+		0 -2px 2px #f00;
+
+	top: 0;
+
+	z-index: -1;
+}
