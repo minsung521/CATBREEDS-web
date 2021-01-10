@@ -5,12 +5,13 @@ body {
 	text-align: center;
 	background-image: url(catswallpaper.jpg);
 	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+	margin: auto 5%;
 }
 ol {
-	margin: 0;
-	padding: 0;
+	padding: 0 0 0 0;
 }
 li {
+	font-size: 30px;
 	list-style: none;
 }
 h1 {
@@ -49,4 +50,14 @@ h1:after {
 	top: 0;
 
 	z-index: -1;
+}
+a {
+	color: violet;
+	text-decoration-line: none;
+}
+
+#content {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 2% 2%;
+	padding: 3%;
 }
